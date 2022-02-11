@@ -13,7 +13,12 @@
 
 .note-content,
 .note-editor {
+    display: inline-block;
     width: 50%;
     min-height: 150px;
-    color: beige;
+    background-color: beige;
+}
+
+.note-editor {
+    background-color: darkgrey;
 }
