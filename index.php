@@ -15,10 +15,13 @@
     ?>
     <hr>
     <div class="wrap-note">
-        <div class="note-content">
+        <div class="note-todo">
 
         </div>
-        <div class="note-editor">
+        <div class="note-doing">
+
+        </div>
+        <div class="note-done">
 
         </div>
     </div>
