@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-note {
+    width: 90%;
+    margin: 0 auto;
+    background-color: gainsboro;
+    min-height: 200px;
+}
+
+.note-content,
+.note-editor {
+    width: 50%;
+    min-height: 150px;
+    color: beige;
+}
