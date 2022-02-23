@@ -29,21 +29,25 @@
     <!-- https://www.w3schools.com/howto/howto_js_tabs.asp -->
     <div id="List" class="tabcontent">
         <div class="tab_container">
-            <?php
-            include "tab_list-container.php";
-            ?>
+            <div class="tab_list-content">
+                <?php include "tab_list-container.php"; ?>
+            </div>
         </div>
     </div>
 
     <div id="Tree" class="tabcontent">
         <div class="tab_container">
-            <?php include "tab_tree-container.php"; ?>
+            <div class="tab_tree-content">
+                <?php include "tab_tree-container.php"; ?>
+            </div>
         </div>
     </div>
 
     <div id="About" class="tabcontent">
         <div class="tab_container">
-        <?php include "tab_about-container.php"; ?>
+            <div class="tab_about-content">
+                <?php include "tab_about-container.php"; ?>
+            </div>
         </div>
     </div>
 </body>

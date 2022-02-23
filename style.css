@@ -47,3 +47,13 @@
      background-color: antiquewhite;
      box-sizing: border-box;
  }
+ 
+ .tab_list-content,
+ .tab_tree-content,
+ .tab_about-content {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     box-sizing: border-box;
+ }

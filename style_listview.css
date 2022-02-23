@@ -1,4 +1,6 @@
-ul {
+.tab_list-content {}
+
+.tab_list-content ul {
     margin: 0;
     padding: 0;
 }
@@ -6,7 +8,7 @@ ul {
 
 /* Style the list items */
 
-ul li {
+.tab_list-content ul li {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
@@ -24,21 +26,21 @@ ul li {
 
 /* Set all odd list items to a different color (zebra-stripes) */
 
-ul li:nth-child(odd) {
+.tab_list-content ul li:nth-child(odd) {
     background: #f9f9f9;
 }
 
 
 /* Darker background-color on hover */
 
-ul li:hover {
+.tab_list-content ul li:hover {
     background: #ddd;
 }
 
 
 /* When clicked on, add a background color and strike out text */
 
-ul li.checked {
+.tab_list-content ul li.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through;
@@ -47,7 +49,7 @@ ul li.checked {
 
 /* Add a "checked" mark when clicked on */
 
-ul li.checked::before {
+.tab_list-content ul li.checked::before {
     content: '';
     position: absolute;
     border-color: #fff;
@@ -63,14 +65,14 @@ ul li.checked::before {
 
 /* Style the close button */
 
-.close {
+.tab_list-content .close {
     position: absolute;
     right: 0;
     top: 0;
     padding: 12px 16px 12px 16px;
 }
 
-.close:hover {
+.tab_list-content .close:hover {
     background-color: #f44336;
     color: white;
 }
@@ -78,7 +80,7 @@ ul li.checked::before {
 
 /* Style the header */
 
-.header {
+.tab_list-content .header {
     background-color: #f44336;
     padding: 30px 40px;
     color: white;
@@ -88,7 +90,7 @@ ul li.checked::before {
 
 /* Clear floats after the header */
 
-.header:after {
+.tab_list-content .header:after {
     content: "";
     display: table;
     clear: both;
@@ -97,7 +99,7 @@ ul li.checked::before {
 
 /* Style the input */
 
-input {
+.tab_list-content input {
     margin: 0;
     border: none;
     border-radius: 0;
@@ -110,7 +112,7 @@ input {
 
 /* Style the "Add" button */
 
-.addBtn {
+.tab_list-content .addBtn {
     padding: 10px;
     width: 25%;
     background: #d9d9d9;
@@ -123,6 +125,6 @@ input {
     border-radius: 0;
 }
 
-.addBtn:hover {
+.tab_list-content .addBtn:hover {
     background-color: #bbb;
 }
