@@ -73,7 +73,7 @@
 }
 
 .tab_list-content .close:hover {
-    background-color: #f44336;
+    /* background-color: #f44336; */
     color: white;
 }
 
@@ -81,10 +81,11 @@
 /* Style the header */
 
 .tab_list-content .header {
-    background: url(img/Dream_love_house.jpg) no-repeat;
+    background: url(img/Dream_love_house.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 40px;
-    color: white;
+    color: blue;
     text-align: center;
 }
 
