@@ -5,15 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php
-    // require "css_link.php"; 
-    // require "script_link.php";
-    // echo $css_link;
-    // echo $script_link;
-    ?>
     <link rel="stylesheet" href="font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_listview.css">
+    <link rel="stylesheet" href="style_treeview_wmmyyyy.css">
+    
     <link rel="stylesheet" href="style_treeview.css">
     <link rel="stylesheet" href="style_aboutview.css">
     <link rel="stylesheet" href="style_about_card.css">
