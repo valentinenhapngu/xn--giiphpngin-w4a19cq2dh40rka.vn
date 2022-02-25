@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function openTab(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -19,5 +18,3 @@ function openTab(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-=======
->>>>>>> parent of c5a0f14... list-tree-about-todolist_v0.1
