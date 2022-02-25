@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php 
-    include "css_link.php"; 
-    include "script_link.php";
+    require "css_link.php"; 
+    require "script_link.php";
+    echo $css_link;
+    echo $script_link;
     ?>
     
     <title>To DO List</title>
