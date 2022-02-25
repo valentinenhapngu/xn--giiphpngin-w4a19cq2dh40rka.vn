@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style_treeview.css">
     <link rel="stylesheet" href="style_aboutview.css">
     <link rel="stylesheet" href="style_about_card.css">
+    <link rel="stylesheet" href="style_about_accordion.css">
     <script src="script.js"></script>
     <title>To DO List</title>
 </head>
