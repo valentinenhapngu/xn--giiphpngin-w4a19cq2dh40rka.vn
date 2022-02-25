@@ -1,6 +1,6 @@
 .about-car .accordion {
-    background-color: #444;
-    color: #eee;
+    background-color: #eee;
+    color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -13,12 +13,12 @@
 
 .active,
 .about-car .accordion:hover {
-    background-color: #ccc;
+    background-color: rgb(179, 221, 255);
 }
 
 .about-car .panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: rgb(233, 215, 157);
     overflow: hidden;
 }

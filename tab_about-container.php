@@ -5,12 +5,12 @@
   <a href="#" id="contact">Contact</a>
 </div>
 
-<div class="about-car">
-  <div>
+<div class="about-car col-12 row">
+  <div class="col-4">
     <h2 style="text-align:center">User Profile Card</h2>
     <div class="card">
       <img src="/img/Dream_love_house.jpg" alt="ThanhNH" style="width:100%">
-      <h1>Nguyen Thanh</h1>
+      <h1>DEMO</h1>
       <p class="title">Demo To Do List</p>
       <p>No Info...</p>
       <div style="margin: 24px 0;">
@@ -22,7 +22,7 @@
       <p><button>Contact</button></p>
     </div>
   </div>
-  <div>
+  <div class="col-8">
     <h2>Accordion</h2>
 
     <button class="accordion">Section 1</button>
