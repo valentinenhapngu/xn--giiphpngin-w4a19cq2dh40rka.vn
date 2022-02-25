@@ -1,6 +1,3 @@
-<h3>Tree</h3>
-<p>Tree tab shows Todolist in Tree stylee.</p>
-
 <div class="timeline">
     <div class="container left">
         <div class="content">
