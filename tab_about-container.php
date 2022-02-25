@@ -9,7 +9,7 @@
   <div class="col-4">
     <h2 style="text-align:center">User Profile Card</h2>
     <div class="card">
-      <img src="/img/Dream_love_house.jpg" alt="ThanhNH" style="width:100%">
+      <img src="img/Dream_love_house.jpg" alt="ThanhNH" style="width:100%">
       <h1>DEMO</h1>
       <p class="title">Demo To Do List</p>
       <p>No Info...</p>

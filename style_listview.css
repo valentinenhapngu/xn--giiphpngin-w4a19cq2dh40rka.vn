@@ -81,7 +81,8 @@
 /* Style the header */
 
 .tab_list-content .header {
-    background-color: #f44336;
+    background: url(img/Dream_love_house.jpg) no-repeat;
+    background-size: cover;
     padding: 30px 40px;
     color: white;
     text-align: center;
