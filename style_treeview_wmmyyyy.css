@@ -1,0 +1,83 @@
+.treeview body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+/* Center website */
+
+.treeview .main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.treeview h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.treeview .row {
+    margin: 10px -16px;
+}
+
+
+/* Add padding BETWEEN each column */
+
+.row,
+.treeview .row>.column {
+    padding: 8px;
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.treeview .column {
+    float: left;
+    display: none;
+    /* Hide all elements by default */
+}
+
+
+/* Clear floats after rows */
+
+.treeview .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Content */
+
+.treeview .content {
+    background-color: white;
+    padding: 10px;
+}
+
+
+/* The "show" class is added to the filtered elements */
+
+.treeview .show {
+    display: block;
+}
+
+
+/* Style the buttons */
+
+.treeview .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.treeview .btn:hover {
+    background-color: #ddd;
+}
+
+.treeview .btn.active {
+    background-color: #666;
+    color: white;
+}
