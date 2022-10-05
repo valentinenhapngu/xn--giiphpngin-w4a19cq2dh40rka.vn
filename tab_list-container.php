@@ -1,7 +1,7 @@
 <div id="myDIV" class="header">
   <h2 style="margin:5px">My To Do List</h2>
   <div>
-    <button class='selected checked'>To Day</button>
+    <button class='selected active'>To Day</button>
     <button>Week</button>
     <button>Month</button>
     <button>Year</button>
